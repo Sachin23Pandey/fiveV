@@ -24,7 +24,6 @@
         body {
             font-family: "jost", "Urbanist", 'Times New Roman', Times, serif;
             min-height: 100vh;
-            background: no-repeat center center/cover;
         }
 
         .navbar {
@@ -596,7 +595,7 @@
 
         /* hover-effect on social media icon  */
         .social-icons a:hover {
-            background-color: #111;
+            background: linear-gradient(to right, #36d1dc, #5b86e5, #be93c5 );
             transition: 0.5s;
         }
 
@@ -615,11 +614,12 @@
         }
 
         .footerNav ul li a {
-            color: #fff;
+            color:linear-gradient(to right, #36d1dc, #5b86e5, #be93c5 ) ;
             margin: 20px;
             text-decoration: none;
             font-size: 1.3em;
-            opacity: 0.7;
+            font-weight: 900;
+            opacity: 1;
             transition: 0.5s;
         }
 
